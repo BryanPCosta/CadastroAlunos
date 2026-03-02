@@ -3,26 +3,28 @@ package entities;
 import javax.swing.*;
 
 public class Aluno {
-    private Spring nome;
+    private String nome;
     private Integer idade;
-    private Double matricula;
+    private Integer matricula;
     private String curso;
 
-    public Aluno(String curso, Double matricula, Integer idade, Spring nome) {
-        this.curso = curso;
-        this.matricula = matricula;
-        this.idade = idade;
+    public Aluno(String nome, Integer idade, Integer matricula, String curso) {
         this.nome = nome;
+        this.idade = idade;
+        this.matricula = matricula;
+        this.curso = curso;
+
+
     }
     public Aluno(){
 
     }
 
-    public Spring getNome() {
+    public String getNome() {
         return nome;
     }
 
-    public void setNome(Spring nome) {
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
@@ -34,11 +36,11 @@ public class Aluno {
         this.idade = idade;
     }
 
-    public Double getMatricula() {
+    public Integer getMatricula() {
         return matricula;
     }
 
-    public void setMatricula(Double matricula) {
+    public void setMatricula(Integer matricula) {
         this.matricula = matricula;
     }
 
@@ -52,7 +54,7 @@ public class Aluno {
 
     @Override
     public String toString() {
-        return "Aluno{" +
+        return
                 "nome=" + nome +
                 ", idade=" + idade +
                 ", matricula=" + matricula +
