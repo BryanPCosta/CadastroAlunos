@@ -18,8 +18,11 @@ Git/GitHub
 ## 📁 Estrutura
 
 src/
+
 ├── entities/Aluno.java # Modelo do aluno
+
 ├── services/AlunoService.java # Lógica CRUD
+
 └── main/Main.java # Menu interativo
 
 ## 🚀 Como rodar
@@ -31,15 +34,22 @@ src/
 ## 📱 Demo
 
 === SISTEMA DE ALUNOS ===
+
 1 - Cadastrar 
+
 2 - Listar 
+
 3 - Buscar
+
 4 - Atualizar 
+
 5 - Remover 
+
 0 - Sair
 
 Exemplo:
    Escolha uma opção: 1
+   
     Nome: João Idade: 20 Matrícula: 123 Curso: TI
     ✓ Cadastrado!
 
